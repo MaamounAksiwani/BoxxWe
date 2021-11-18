@@ -1,0 +1,202 @@
+:root {
+    --MainColor: #42a5f5;
+}
+
+body {
+    font-family: 'Tajawal', sans-serif;
+}
+
+body {
+    direction: rtl;
+    text-align: right;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* 
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+a {
+    text-decoration: none;
+}
+
+
+/* Start Nav*/
+
+nav {
+    padding: 10px;
+}
+
+nav .container-fluid .main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 768px) {
+    nav .container-fluid .main-nav {
+        flex-direction: column-reverse;
+    }
+    nav .container-fluid .main-nav button {
+        margin-bottom: 25px;
+    }
+}
+
+nav .container-fluid .main-nav ul {
+    display: flex;
+}
+
+nav .container-fluid .main-nav ul li {
+    cursor: pointer;
+    padding-right: 10px;
+    font-weight: 300;
+}
+
+nav .container-fluid .main-nav ul li:nth-child(1) {
+    color: var(--MainColor);
+    font-weight: bold;
+}
+
+nav .container-fluid .main-nav button {
+    padding: 5px 25px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    background-color: var(--MainColor);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    font-weight: bold;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+
+/*End Nav*/
+
+
+/*Start Header*/
+
+header {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+header .img-info img {
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {}
+
+header .header-content {
+    text-align: right;
+}
+
+header .container h1 {
+    margin-bottom: 10px;
+}
+
+header .container button {
+    padding: 10px 25px;
+    font-size: 20px;
+    margin: 10px 0px;
+    background: none;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-weight: 300;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+header .container p {
+    font-weight: 300;
+}
+
+.title-name {
+    color: var(--MainColor);
+}
+
+
+/*End Header*/
+
+
+/*Start Main*/
+
+main .container h1 {
+    font-weight: bold;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+main .main-options p {
+    font-weight: 300;
+}
+
+main .main-options .box {
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 15px #ccc;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+/*End Main*/
+
+
+/*start section*/
+
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+section .section-boxs .box {
+    height: 250px;
+}
+
+section .section-boxs .box h2 {
+    color: var(--MainColor);
+}
+
+section .section-boxs .box p {
+    font-weight: 300;
+}
+
+
+/*end section*/
+
+
+/*footer*/
+
+footer {
+    text-align: center;
+    font-size: 25px;
+    padding: 25px;
+    background-color: #DDD;
+}
+
+
+/*footer*/
